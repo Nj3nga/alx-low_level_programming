@@ -15,5 +15,8 @@ int main(void)
 
 	fprintf(stderr, "Anything\n");
 
+	printf("");
+	printf("%d chars long\n", 0);
+
 	return (0);
 }
