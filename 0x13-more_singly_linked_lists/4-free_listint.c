@@ -13,14 +13,17 @@
  * Return: void
  */
 
+
 void free_listint(listint_t *head)
 {
 	listint_t *next;
 
 	while (head != NULL)
 	{
-		head = next;
 		next = head->next;
-		free(next);
+
+		free(head);
+
+		head = next;
 	}
 }
