@@ -4,18 +4,12 @@
 
 
 /**
- * _r - reallocates memory for an array of pointers
- * to the nodes in a linked list
+ * print_listint_safe -  prints a listint_t linked list.
+ * @head: pointer to the beginning
  *
- * @list: the old list to append
+ * Author Njenga
  *
- * @size: size of the new list (always one more than the old list)
- *
- * @new: new node to add to the list
- *
- *Author Njenga
- *
- * Return: pointer to the new list
+ *Return: returns number of nodes in the list
  */
 
 size_t print_listint_safe(const listint_t *head)
